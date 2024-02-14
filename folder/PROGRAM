@@ -1,0 +1,196 @@
+#include <Adafruit_MPU6050.h>
+#include <Adafruit_Sensor.h>
+#include <Wire.h>
+
+Adafruit_MPU6050 mpu;
+
+
+IntervalTimer myTimerM0;
+IntervalTimer myTimerPrint;
+
+
+int velocity = 400;  // motorraren abiadura egokioena. 120an ere ondo joan izan da
+
+
+float m0 = 0;  //zentimetrotan
+float aceleration = 0.0;
+
+
+int stepPinM0State = LOW;
+int stepPinM0State2 = LOW;
+
+
+boolean noranzkoaM0 = LOW;
+
+
+const int dirPin = 8;
+const int stepPin = 9;
+
+const int dirPin2 = 6;
+const int stepPin2 = 7;
+
+const int steps = 2000;
+
+
+int stepDelay;
+int potNoaranzkoa = 0;
+int potAbiadura = 0;
+
+
+void setup() {
+
+  Serial.begin(115200);
+  while (!Serial)
+    delay(10);  // will pause Zero, Leonardo, etc until serial console opens
+
+  Serial.println("Adafruit MPU6050 test!");
+
+  // Try to initialize!
+  if (!mpu.begin()) {
+    Serial.println("Failed to find MPU6050 chip");
+    while (1) {
+      delay(10);
+    }
+
+  }
+
+  Serial.println("MPU6050 Found!");
+
+  mpu.setAccelerometerRange(MPU6050_RANGE_8_G);
+  Serial.print("Accelerometer range set to: ");
+  switch (mpu.getAccelerometerRange()) {
+    case MPU6050_RANGE_2_G:
+      Serial.println("+-2G");
+      break;
+    case MPU6050_RANGE_4_G:
+      Serial.println("+-4G");
+      break;
+    case MPU6050_RANGE_8_G:
+      Serial.println("+-8G");
+      break;
+    case MPU6050_RANGE_16_G:
+      Serial.println("+-16G");
+      break;
+  }
+
+  mpu.setGyroRange(MPU6050_RANGE_500_DEG);
+  Serial.print("Gyro range set to: ");
+  switch (mpu.getGyroRange()) {
+    case MPU6050_RANGE_250_DEG:
+      Serial.println("+- 250 deg/s");
+      break;
+    case MPU6050_RANGE_500_DEG:
+      Serial.println("+- 500 deg/s");
+      break;
+    case MPU6050_RANGE_1000_DEG:
+      Serial.println("+- 1000 deg/s");
+      break;
+    case MPU6050_RANGE_2000_DEG:
+      Serial.println("+- 2000 deg/s");
+      break;
+  }
+
+  mpu.setFilterBandwidth(MPU6050_BAND_21_HZ);
+  Serial.print("Filter bandwidth set to: ");
+  switch (mpu.getFilterBandwidth()) {
+    case MPU6050_BAND_260_HZ:
+      Serial.println("260 Hz");
+      break;
+    case MPU6050_BAND_184_HZ:
+      Serial.println("184 Hz");
+      break;
+    case MPU6050_BAND_94_HZ:
+      Serial.println("94 Hz");
+      break;
+    case MPU6050_BAND_44_HZ:
+      Serial.println("44 Hz");
+      break;
+    case MPU6050_BAND_21_HZ:
+      Serial.println("21 Hz");
+      break;
+    case MPU6050_BAND_10_HZ:
+      Serial.println("10 Hz");
+      break;
+    case MPU6050_BAND_5_HZ:
+      Serial.println("5 Hz");
+      break;
+  }
+
+  // Marcar los pines como salida
+  pinMode(dirPin, OUTPUT);
+  pinMode(stepPin, OUTPUT);
+
+  pinMode(dirPin2, OUTPUT);
+  pinMode(stepPin2, OUTPUT);
+  //Serial.begin(9600);
+  myTimerM0.begin(M0, velocity);       // M0 funtzioa abiaraziko du
+  myTimerPrint.begin(PRINT, 1000000);  // M0 funtzioa abiaraziko du
+
+}
+
+
+void loop() {
+
+  delay(1);
+  //potNoaranzkoa = analogRead(A0);
+  potAbiadura = analogRead(A1);
+  //velocity = map(potAbiadura, 0, 1024, 1000, 200);
+  
+  if (aceleration >= 0.0) {
+    Serial.print("if-hemenNago");
+    velocity = map(aceleration, 0, 9, 1000, 200);
+
+  } else {
+    Serial.print("else-hemenNago");
+    velocity = map(aceleration, 0, -9, 1000, 200);
+  }
+
+
+  myTimerM0.begin(M0, velocity);
+  IMU();
+
+}
+
+
+void M0() {
+
+  //Activar una direccion y fijar la velocidad con stepDelay
+  if (aceleration > 0.0) {
+    digitalWrite(dirPin, HIGH);
+    digitalWrite(dirPin2, LOW);
+
+  } else {
+    digitalWrite(dirPin, LOW);
+    digitalWrite(dirPin2, HIGH);
+  }
+
+  digitalWrite(stepPin, stepPinM0State);
+  stepPinM0State = !stepPinM0State;
+
+  digitalWrite(stepPin2, stepPinM0State2);
+  stepPinM0State2 = !stepPinM0State2;
+
+}
+
+
+void IMU() {
+
+  sensors_event_t a, g, temp;
+  mpu.getEvent(&a, &g, &temp);
+
+  /* Print out the values */
+  //Serial.print("Acceleration X: ");
+  aceleration = (a.acceleration.x);
+  aceleration -= 6.40;
+
+}
+
+
+void PRINT() {
+
+  Serial.println(potAbiadura);
+  Serial.println(velocity);
+  Serial.println(aceleration);
+  Serial.println();
+
+}
