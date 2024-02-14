@@ -1,0 +1,36 @@
+- 2 X Gurpil ( Archivo STL )
+- 2 X Gurpiletarako goma
+- 2 X Nema 17 ( 17HS4401 )
+- 3 X Plataforma ( Archivo STL )
+- Teensy 4.0 
+- MPU 6050
+- 2 X DRV 8834
+- Modulo bluetooth HC-05
+- Barilla metro 1 (M3)
+- 24 X Azkoinak M3
+- Li-Po 12V
+
+- Konexioen plaka:
+    - 2 X Kondentsadoreak ( 100 uF )
+    - 5 X Zokalo 8 pin
+    - 2 X Zokalo 14 pin
+    - 2 X Zokalo 4 pin
+    - Zokalo 3 pin
+    - Zokalo 6 pin
+    - Zokalo 7 pin
+    - Borna
+
+- Sentsoreen plaka:
+    - Erresistentzia 8 ohm
+    - Erresistentzia SMD 44K ohm
+    - Multiplexor (HC4067)
+    - 16 X Sentsoreak (qre1113gr)
+    - 2 X Elebador 50mm (M1)
+    - 2 X Azkoinak M1
+
+- Potentzia etapa plaka (12V-->5V):
+    - 4 X Zokalo 1 pin
+    - L7805CV3
+    - Artezle diodoa (1N4007)
+    - Kondentsadorea (100nF)
+    - Kondentsadorea (330nF)
