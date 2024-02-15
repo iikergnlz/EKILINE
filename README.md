@@ -46,5 +46,10 @@ Horretarako hainbat pauso jarraitu ditugu.
     3.2.- Potentzia etapa: Era berean, gure plakari potentzia-kontrol bat gehitu diogu teensya elikatu ahal izateko, 12V - 5V bihurtuz.
 
         
+![Captura de pantalla (40)](https://github.com/iikergnlz/EKILINE/assets/156433967/fd5b6bb4-332a-48a7-b44c-44f412531928)
 
+          Hemen dakagu PCB-a:
+          
+![Captura de pantalla (39)](https://github.com/iikergnlz/EKILINE/assets/156433967/7516e141-a253-4fa3-9a56-d20440aec242)
+          
 
