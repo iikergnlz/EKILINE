@@ -24,7 +24,10 @@ Horretarako hainbat pauso jarraitu ditugu.
   2.- Egitura muntatu: 
       Orain, egitura osoa muntatuko dugu; lehenik, gomak gurpiletan jarriko ditugu (horietan hobeto heltzeko); orain, 3 solairuko egitura muntatuko dugu, aurrez inprimatutako plakekin;         M3ko barrak, 24 azkoinak eta azkoinaren azken 8ak erabiliko ditugu.
 
-        
+
+  3.- Plakak diseinatu eta fresatu:
+
+  3.1.-
 
 
 Behin materiala guztia eskuratuta, gure robotaren txasisa hasi ginen muntatzen
