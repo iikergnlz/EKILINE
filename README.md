@@ -8,7 +8,7 @@ Horretarako hainbat pauso jarraitu ditugu.
 # JARRAITU BEHAR DIREN URRATSAK:
 
 
-  1**.-** Gure proiektuarekin hasteko, solairu bakoitza inprimatu izan behar genuen 3D inprimagailu bat erabiliz, ultimaker cura aplikazioaren bidez, 3 pieza inprimatu genuen:
+  1.- Gure proiektuarekin hasteko, solairu bakoitza inprimatu izan behar genuen 3D inprimagailu bat erabiliz, ultimaker cura aplikazioaren bidez, 3 pieza inprimatu genuen:
 
 ![Captura de pantalla (5)29](https://github.com/iikergnlz/EKILINE/assets/157123558/6fbf521b-18e9-4261-8967-a8887137901e)
     ** Plaken artxiboa goian dago
@@ -19,6 +19,10 @@ Horretarako hainbat pauso jarraitu ditugu.
 
   ![Captura de pantalla (7)](https://github.com/iikergnlz/EKILINE/assets/156433967/8151e66e-61b1-4824-9146-7c65fd9c5ea1)
   ** Gurpilen artxiboa goian dago
+
+
+  2.- Egitura muntatu: 
+        
 
 
 Behin materiala guztia eskuratuta, gure robotaren txasisa hasi ginen muntatzen
