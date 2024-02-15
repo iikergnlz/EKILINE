@@ -25,9 +25,14 @@ Horretarako hainbat pauso jarraitu ditugu.
       Orain, egitura osoa muntatuko dugu; lehenik, gomak gurpiletan jarriko ditugu (horietan hobeto heltzeko); orain, 3 solairuko egitura muntatuko dugu, aurrez inprimatutako plakekin;         M3ko barrak, 24 azkoinak eta azkoinaren azken 8ak erabiliko ditugu.
 
 
-  3.- Plakak diseinatu eta fresatu:
+  3.- Plakak diseinatu eta fresatu (Konexioak, Sentsoreak eta Potentzia etapa):
 
-  3.1.-
+  3.1.- Konexioak: Plaka honetan hainbat konponente erabili ditugu, hala nola, Teensy 4.0, DRV8834, MPU6050, Bluetooth HC-05, Kondentsadoreak, Bornak eta Zokaloak.             Honen neurriak hauek dira, 6.5 cm-ko zabalera eta 13 cm-ko luzera du. Honekin batera, eskema elektrikoko eta pcb-ko argazkiak doaz, bai eta artxiboko argazkiak         ere, deskargatu ahal izateko.
+ 
+![Captura de pantalla (8)](https://github.com/iikergnlz/EKILINE/assets/156433967/5f256e0d-35f4-4149-a300-241b7fb2c29d)
+
+![Captura de pantalla (9)](https://github.com/iikergnlz/EKILINE/assets/156433967/262e6f79-5c62-44a0-a25b-766f25d29d04)
+
 
 
 Behin materiala guztia eskuratuta, gure robotaren txasisa hasi ginen muntatzen
