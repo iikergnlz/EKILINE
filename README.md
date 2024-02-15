@@ -43,6 +43,8 @@ Horretarako hainbat pauso jarraitu ditugu.
         
 ![Captura de pantalla (11)](https://github.com/iikergnlz/EKILINE/assets/156433967/4c329bdc-8369-4c8f-9ff1-638366877fdb)
 
+    3.2.- Potentzia etapa: Era berean, gure plakari potentzia-kontrol bat gehitu diogu teensya elikatu ahal izateko, 12V - 5V bihurtuz.
+
         
 
 
