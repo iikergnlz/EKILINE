@@ -7,11 +7,11 @@ Horretarako hainbat pauso jarraitu ditugu.
 
 # JARRAITU BEHAR DIREN URRATSAK:
 
-
+-1
 Lehenik eta behin gure proiektuaren inguruan informazioa bilatu bhar izan genuen eta horrez gain material zerrenda bat bete genuen
 
 Bestetik, gure proiektuko solairu bakoitza egiteko inprimagailu 3D bat erabili genuen, ultimaker cura aplikazioaren bidez, 3 pieza inprimatu genuen
-![Captura de pantalla (5)](https://github.com/iikergnlz/EKILINE/assets/157123558/6fbf521b-18e9-4261-8967-a8887137901e)
+![Captura de pantalla (5)29](https://github.com/iikergnlz/EKILINE/assets/157123558/6fbf521b-18e9-4261-8967-a8887137901e)
 
 Behin materiala guztia eskuratuta, gure robotaren txasisa hasi ginen muntatzen
 
