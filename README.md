@@ -13,6 +13,8 @@ Horretarako hainbat pauso jarraitu ditugu.
 ![Captura de pantalla (5)29](https://github.com/iikergnlz/EKILINE/assets/157123558/6fbf521b-18e9-4261-8967-a8887137901e)
     ** Plaken artxiboa goian dago
 
+
+
   1.1.- Bestalde, 3D inprimagailuan ere gurpilak inprimatuko ditugu:
 
   ![Captura de pantalla (7)](https://github.com/iikergnlz/EKILINE/assets/156433967/8151e66e-61b1-4824-9146-7c65fd9c5ea1)
