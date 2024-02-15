@@ -11,7 +11,7 @@ Horretarako hainbat pauso jarraitu ditugu.
   1.- Gure proiektuarekin hasteko, solairu bakoitza inprimatu izan behar genuen 3D inprimagailu bat erabiliz, ultimaker cura aplikazioaren bidez, 3 pieza inprimatu genuen:
 
 ![Captura de pantalla (5)29](https://github.com/iikergnlz/EKILINE/assets/157123558/6fbf521b-18e9-4261-8967-a8887137901e)
-** Plaken artxiboa goian dago
+    ** Plaken artxiboa goian dago
 
 
 Behin materiala guztia eskuratuta, gure robotaren txasisa hasi ginen muntatzen
