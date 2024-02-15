@@ -36,10 +36,11 @@ Horretarako hainbat pauso jarraitu ditugu.
 
   3.2.- Sentsoreak: Plaka honetan multiplexore bat erabili dugu, zehazki, 74HC4067-a. Gainera, marra jarraitu ahal izateko 16 sentsore erabili ditugu, qre1113gr-ak eta
         guzti hau Teensy-ra konektatu ditugu konektore batzuen bidez.
+        
         ![Captura de pantalla (10)](https://github.com/iikergnlz/EKILINE/assets/156433967/898f2f96-bf00-4a76-8aa2-fc891147fd89)
 
         Hemen dago Plakaren PCB-a:
-        ![Captura de pantalla (11)](https://github.com/iikergnlz/EKILINE/assets/156433967/258d5c18-6e5c-4d3d-a3ee-7939af186a3e)
+![Captura de pantalla (11)](https://github.com/iikergnlz/EKILINE/assets/156433967/4c329bdc-8369-4c8f-9ff1-638366877fdb)
 
         
 
