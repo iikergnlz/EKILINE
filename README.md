@@ -53,3 +53,8 @@ Horretarako hainbat pauso jarraitu ditugu.
 ![Captura de pantalla (39)](https://github.com/iikergnlz/EKILINE/assets/156433967/7516e141-a253-4fa3-9a56-d20440aec242)
           
 
+    4.-Eta orain dena kableen bidez konektatzea besterik ez da geratzen, eta azken emaitzak honen antzeko zerbait izan         beharko luke, 3 bistetan ikusita:
+![IMG-20240215-WA0001](https://github.com/iikergnlz/EKILINE/assets/156433967/d0e81c63-f57f-4653-9fff-e3eac0a9c4e8)
+![IMG-20240215-WA0000](https://github.com/iikergnlz/EKILINE/assets/156433967/3734e14e-c644-4124-a681-78c8bc223e38)
+![IMG-20240215-WA0002](https://github.com/iikergnlz/EKILINE/assets/156433967/72bb887b-07f7-4e13-8dda-4593c428cd1b)
+
