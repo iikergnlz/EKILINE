@@ -12,6 +12,8 @@ Horretarako hainbat pauso jarraitu ditugu.
 
 ![Captura de pantalla (5)29](https://github.com/iikergnlz/EKILINE/assets/157123558/6fbf521b-18e9-4261-8967-a8887137901e)
 ** Plaken artxiboa goian dago
+
+
 Behin materiala guztia eskuratuta, gure robotaren txasisa hasi ginen muntatzen
 
 *Foto del proyecto montado*
