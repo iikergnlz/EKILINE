@@ -4,6 +4,9 @@
 Proiektu honek bi gurpileko robot orekatzaile bat da (balancing), zutik mantendu behar da modulu giroskopiko bati esker, aldi berean, lerro bat jarrai baitezake sentsore batzuei esker.
 Horretarako hainbat pauso jarraitu ditugu.
 
+# JARRAITU BEHAR DIREN URRATSAK:
+
+
 Lehenik eta behin gure proiektuaren inguruan informazioa bilatu bhar izan genuen eta horrez gain material zerrenda bat bete genuen
 
 Bestetik, gure proiektuko solairu bakoitza egiteko inprimagailu 3D bat erabili genuen, ultimaker cura aplikazioaren bidez, 3 pieza inprimatu genuen
